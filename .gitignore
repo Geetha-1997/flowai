@@ -1,0 +1,16 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Editors
+.vscode/
+.idea/
