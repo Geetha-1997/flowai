@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: flowai
-  tag: "1.0"
+  repository: ghcr.io/geetha-1997/flowai
+  tag: "c4ef7d0"
   pullPolicy: IfNotPresent
 
 # Created outside Git: kubectl create secret generic flowai-secrets --from-env-file=.env
